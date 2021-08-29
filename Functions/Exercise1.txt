@@ -1,0 +1,2 @@
+1. Output is 1 since function foo cannot reassigned the value 2 to the global variable bar.
+2.

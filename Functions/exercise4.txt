@@ -1,0 +1,10 @@
+
+function scream(words) {
+  words = words + '!!!!';
+  return;
+  console.log(words);
+}
+
+scream('Yipeee');
+
+The code will log nothing to the console because the function return before the console.log expression. 
