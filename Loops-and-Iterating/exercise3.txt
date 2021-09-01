@@ -1,0 +1,12 @@
+let counter = 0;
+
+while (counter = 1) {
+  console.log(counter);
+  counter += 1;
+
+  if (counter > 2) {
+    break;
+  }
+}
+
+Because inside the while condition counter has been assigned to a value to 1, so it return a truly value, then it logs the 1 to the console, then counter increased 1 which makes counter =2 , than counter is not bigger than 2, the first iteration won't break the loop, than the second time the counter will be reassigned by the value 1, it won't fit the if condition, so on and so forth, the while loop will last forever. 

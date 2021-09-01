@@ -1,0 +1,20 @@
+function barCodeScanner(serial) {
+  switch (serial) {
+    case '123':
+      console.log('Product1');
+    case '113':
+      console.log('Product2');
+    case '142':
+      console.log('Product3');
+    default:
+      console.log('Product not found!');
+  }
+}
+
+barCodeScanner('113'); 
+
+
+
+It will log all product 1,2,3 and the default message because there is no break, so excuse will cause a fall down.
+
+Correction : it won't log product 1 because the input enable switch start with case '113' which is the product 2.

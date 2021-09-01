@@ -1,0 +1,7 @@
+for (let i = 0; i < 5;) {
+  console.log(i += 1);
+}
+
+It produces an error since there is a missing condition on for ;
+
+Correction: it won't produce an error since we increment i by 1 on line2.

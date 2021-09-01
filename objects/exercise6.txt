@@ -1,0 +1,9 @@
+"foo"  neither / prime: string
+3.1415  prim
+[ 'a', 'b', 'c' ]  obj
+false prim
+foo neither
+function bar() { return "bar"; } obj
+undefined prim
+{ a: 1, b: 2 } obj
+
